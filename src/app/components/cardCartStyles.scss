@@ -1,0 +1,117 @@
+.prodCartContainer{
+    width: 95%;
+    height: 95px;
+    background-color: #FFFFFF;
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    gap:8px;
+    border-radius: 8px;
+    padding:12px;
+    position:relative;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+
+    .imgContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 46px;;
+        position:relative;
+        height:57px;
+    }
+
+    .nameText {
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17px;
+        text-align: left;
+        color:#2C2C2C;        
+    }
+
+    .qtdContainer{
+        display:flex;
+        flex-direction: column;
+        gap:4px;
+        justify-content: center;
+
+        .firstQtd {
+            font-family: Montserrat;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 6.1px;
+            text-align: left;
+        }
+
+        .qtdBox{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            border:0.3px solid #BFBFBF;
+            border-radius: 4px;
+            width:50px;
+            height: 19px;
+            padding:4px;
+
+            p{
+                font-family: Montserrat;
+                font-size: 10px;
+                font-weight: 400;
+                line-height: 9.75px;
+                text-align: left;
+                color:#000000
+            }
+
+            p:first-of-type {
+                cursor: pointer;
+            }
+
+            p:last-of-type {
+                cursor: pointer;
+            }
+
+            .vertical-line{
+                display: inline-block;
+                border-left: .3px solid #BFBFBF;
+                margin: 0 2px;
+                height: 90%;
+            }
+        }
+    }
+
+    .prodPrice p{
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        text-align: left;
+        color:#000000;        
+        
+    }
+
+    .prodDescription{
+        font-family: Montserrat;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 12px;
+        text-align: left;
+        color:#2C2C2C
+    }
+
+    .cardButton{
+        width: 218px;
+        height: 31.91px;
+        gap: 0px;
+        border-radius: 0px 0px 8px 8px;
+        opacity: 0px;
+        border:none;
+        background-color: #0F52BA;
+        position: absolute;
+        bottom:0;
+        left:0;
+        cursor:pointer;
+    }
+
+}
