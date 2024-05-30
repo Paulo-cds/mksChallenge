@@ -68,7 +68,13 @@ const Header = () => {
           </Box>
           <Button
             variant="contained"
-            sx={{ backgroundColor: "#FFFFFF", color: "#000000" }}
+            sx={{
+              backgroundColor: "#FFFFFF",
+              color: "#000000",
+              "&:hover": {
+                backgroundColor: "#FFFFFF",
+              },
+            }}
             startIcon={<ShoppingCartIcon />}
             onClick={() => setOpen(true)}
           >

@@ -80,37 +80,75 @@
         color:#2C2C2C
     }
 
-    .buttonBox{
+    // .buttonBox{
+    //     width: 218px;
+    //     height: 31.91px;
+    //     border-radius: 0px 0px 8px 8px;
+    //     opacity: 0px;
+    //     border:none;
+    //     background-color: #0F52BA;
+    //     position: absolute;
+    //     bottom:0;
+    //     left:0;
+    //     cursor:pointer;
+    //     display:flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     gap:8px;
+    //     font-family: Montserrat;
+    //     font-size: 14px;
+    //     font-weight: 600;
+    //     line-height: 18px;
+    //     text-align: left;
+    //     color:#FFFFFF;
+
+    //     .cardButton{
+    //         width: 218px;
+    //         height: 31.91px;
+    //         border-radius: 0px 0px 8px 8px;
+    //         opacity: 0px;
+    //         border:none;
+    //         background-color: #0F52BA;
+    //         position: absolute;
+    //         bottom:0;
+    //         left:0;
+    //         display:flex;
+    //         align-items: center;
+    //         justify-content: center;
+    //         gap:8px;
+    //         font-family: Montserrat;
+    //         font-size: 14px;
+    //         font-weight: 600;
+    //         line-height: 18px;
+    //         text-align: left;
+    //         color:#FFFFFF;
+    //         background-color: transparent;
+    //         border-radius: 0px 0px 8px 8px;
+    //         border:none;
+    //     }
+    // }
+
+    .cardButton{
         width: 218px;
         height: 31.91px;
         border-radius: 0px 0px 8px 8px;
-        opacity: 0px;
         border:none;
         background-color: #0F52BA;
         position: absolute;
         bottom:0;
         left:0;
-
-        .cardButton{
-            width:100%;
-            height: 100%;
-            cursor:pointer;
-            display:flex;
-            align-items: center;
-            justify-content: center;
-            gap:8px;
-            font-family: Montserrat;
-            font-size: 14px;
-            font-weight: 600;
-            line-height: 18px;
-            text-align: left;
-            color:#FFFFFF;
-            background-color: transparent;
-            border-radius: 0px 0px 8px 8px;
-            border:none;
-        }
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:8px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: left;
+        color:#FFFFFF;
+        cursor: pointer;
     }
-
     
 
 }

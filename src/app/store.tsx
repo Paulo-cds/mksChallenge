@@ -7,7 +7,6 @@ import { Product } from "./interfaces";
 const Store = () => {
   const { data, isLoading } = GetProductsData();
   const skeletons = Array.from({ length: 8 });
-  console.log("data ", data);
 
   return (
     <div className="productMain">
@@ -20,7 +19,7 @@ const Store = () => {
                   key={index}
                   width={218}
                   height={285}
-                  sx={{ borderRadius: "10px" }}
+                  sx={{ borderRadius: "10px", margin: '0 auto' }}
                 />
               ))
             : data.products.map((item: Product) => (
