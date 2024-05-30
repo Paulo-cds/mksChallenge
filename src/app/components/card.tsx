@@ -45,9 +45,11 @@ const Card = (item: Product) => {
         </div>
       </div>
       <p className="prodDescription">{item.description}</p>
-      <button onClick={() => handlesetItemCard()} className="cardButton">
-        <ShoppingBagIcon sx={{fontSize:'18px'}} /> COMPRAR
-      </button>
+      <div className="buttonBox" >
+        <button onClick={() => handlesetItemCard()} className="cardButton">
+          <ShoppingBagIcon sx={{fontSize:'18px'}} /> COMPRAR
+        </button>
+      </div>
       <Snackbar
         open={open}
         autoHideDuration={1500}
